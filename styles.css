@@ -1,0 +1,5 @@
+body { background-color: lightgray; }
+table { font-family: "Segoe UI"; }
+.player { color: white; }
+.player:hover { color: gray; text-decoration: none; }
+.external:hover { text-decoration: none; }
