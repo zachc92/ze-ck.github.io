@@ -4,3 +4,4 @@ table { font-family: "Segoe UI"; }
 .player:hover { color: gray; text-decoration: none; }
 .external:hover { text-decoration: none; }
 .tentaclenav { background-color: rgb(233,236,239) !important; margin-bottom: 15px; }
+.tentacledrop {background-color: rgb(233,236,239);}
