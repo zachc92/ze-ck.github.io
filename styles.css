@@ -5,3 +5,6 @@ table { font-family: "Segoe UI"; }
 .external:hover { text-decoration: none; }
 .tentaclenav { background-color: rgb(233,236,239) !important; margin-bottom: 15px; }
 .tentacledrop {background-color: rgb(233,236,239);}
+a.dropdown-item:hover {background-color: rgb(233,236,239); color: black;}
+a.dropdown-item {color: rgb(116,118,119);}
+/*.jumbotron { background-color: #212529; color: white; }*/
