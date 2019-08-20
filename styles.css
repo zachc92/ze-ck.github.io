@@ -1,10 +1,77 @@
-body { background-color: lightgray; }
-table { font-family: "Segoe UI"; }
-.player { color: white; }
-.player:hover { color: gray; text-decoration: none; }
-.external:hover { text-decoration: none; }
-.tentaclenav { background-color: rgb(233,236,239) !important; margin-bottom: 15px; }
-.tentacledrop {background-color: rgb(233,236,239);}
-a.dropdown-item:hover {background-color: rgb(233,236,239); color: black;}
-a.dropdown-item {color: rgb(116,118,119);}
-/*.jumbotron { background-color: #212529; color: white; }*/
+body { 
+	background-color: lightgray; 
+}
+
+table { 
+	font-family: "Segoe UI"; 
+}
+
+.player { 
+	color: white; 
+}
+
+.player:hover { 
+	color: gray; text-decoration: none; 
+}
+
+.external:hover { 
+	text-decoration: none; 
+}
+
+.tentaclenav { 
+	background-color: rgb(233,236,239) !important; 
+	margin-bottom: 15px; }
+
+.tentaclenav-dark { 
+	background-color: rgb(47,49,54) !important; 
+	margin-bottom: 15px;
+	color: white;
+}
+
+.tentacledrop {
+	background-color: rgb(233,236,239);
+}
+
+.tentacledrop-dark {
+	background-color: rgb(47,49,54);
+}
+
+a.dropdown-item:hover {
+	background-color: rgb(233,236,239);
+	 color: black;
+}
+
+a.dropdown-item {
+	color: rgb(116,118,119);
+}
+
+.dark-jumbo {
+  	padding: 64px 32px;
+  	margin-bottom: 2rem;
+  	background-color: rgb(47,49,54);
+  	border-radius: 0.3rem;
+  	color: white;
+}
+
+.dark-body {
+	background-color: rgb(54,57,63);
+	color: white;
+}
+
+.dropdown-item-dark {
+  	display: block;
+  	width: 100%;
+  	padding: 0.25rem 1.5rem;
+  	clear: both;
+  	font-weight: 400;
+  	color: rgb(151,152,155);
+  	text-align: inherit;
+  	white-space: nowrap;
+  	background-color: transparent;
+  	border: 0;
+}
+
+a.dropdown-item-dark:hover {
+	color: white;
+	text-decoration: none;
+}
