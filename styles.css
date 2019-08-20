@@ -75,3 +75,16 @@ a.dropdown-item-dark:hover {
 	color: white;
 	text-decoration: none;
 }
+
+#meteor {
+		-webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
