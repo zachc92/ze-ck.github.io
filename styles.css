@@ -88,3 +88,7 @@ a.dropdown-item-dark:hover {
 				-webkit-transform: rotate(359deg);
 		}
 }
+
+iframe {
+border: 0;
+}
