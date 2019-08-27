@@ -6,6 +6,10 @@ var navbarTheme = document.querySelector(".navbar-light");
 var dropdown = document.querySelectorAll(".tentacledrop");
 var dropdownItem = document.querySelectorAll(".dropdown-item");
 
+function(){
+	setThemeFromCookie()
+};
+
 theme.onclick = function (){
 	if (jumbo.classList.contains("jumbotron")){
 		jumbo.classList.add("dark-jumbo");
@@ -55,6 +59,12 @@ theme.onclick = function (){
 			dropdownItem[i].classList.remove("dropdown-item-dark");
 		}
 	}
+}
 
-	console.log(document.cookie)
+function isDarkThemeSelected(){
+	return document.cookie.match(/darkTheme/i) != null;
+}
+
+function setThemeFromCookie(){
+	body.className = isDarkThemeSelected() ? "dark-body" : "light-body";
 }
