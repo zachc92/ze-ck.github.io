@@ -6,9 +6,7 @@ var navbarTheme = document.querySelector(".navbar-light");
 var dropdown = document.querySelectorAll(".tentacledrop");
 var dropdownItem = document.querySelectorAll(".dropdown-item");
 
-function(){
-	setThemeFromCookie()
-};
+setThemeFromCookie();
 
 theme.onclick = function (){
 	if (jumbo.classList.contains("jumbotron")){
