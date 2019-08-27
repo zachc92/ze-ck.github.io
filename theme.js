@@ -8,7 +8,11 @@ var dropdownItem = document.querySelectorAll(".dropdown-item-dark");
 
 // setThemeFromCookie();
 
-theme.onclick = function (){
+theme.onclick = function(){
+	setTheme();
+}
+
+function setTheme(){
 	if (jumbo.classList.contains("jumbotron")){
 		jumbo.classList.add("dark-jumbo");
 		jumbo.classList.remove("jumbotron");
@@ -26,11 +30,9 @@ theme.onclick = function (){
 	if (body.classList.contains("light-body")){
 		body.classList.add("dark-body");
 		body.classList.remove("light-body");
-		document.cookie = "darkTheme";
 	} else {
 		body.classList.remove("dark-body");
 		body.classList.add("light-body");
-		document.cookie = "lightTheme"
 	}
 	if (navbarTheme.classList.contains("navbar-light")) {
 		navbarTheme.classList.add("navbar-dark");
