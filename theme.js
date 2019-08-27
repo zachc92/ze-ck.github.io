@@ -65,4 +65,9 @@ function isDarkThemeSelected(){
 
 function setThemeFromCookie(){
 	body.className = isDarkThemeSelected() ? "dark-body" : "light-body";
+	navbarTheme.className = isDarkThemeSelected() ? "navbar-dark" : "navbar-light";
+	dropdown.className = isDarkThemeSelected() ? "tentacledrop-dark" : "tentacledrop";
+	dropdownItem.className = isDarkThemeSelected() ? "dropdown-item-dark" : "dropdown-item";
+	jumbo.className = isDarkThemeSelected() ? "dark-jumbo" : "jumbotron";
+	navbar.className = isDarkThemeSelected() ? "tentaclenav-dark" : "tentaclenav";
 }
