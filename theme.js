@@ -1,10 +1,10 @@
 var theme = document.querySelector("img");
-var jumbo = document.querySelector(".jumbotron");
-var navbar = document.querySelector(".tentaclenav");
+var jumbo = document.querySelector(".dark-jumbo");
+var navbar = document.querySelector(".tentaclenav-dark");
 var body = document.querySelector("body");
-var navbarTheme = document.querySelector(".navbar-light");
-var dropdown = document.querySelectorAll(".tentacledrop");
-var dropdownItem = document.querySelectorAll(".dropdown-item");
+var navbarTheme = document.querySelector(".navbar-dark");
+var dropdown = document.querySelectorAll(".tentacledrop-dark");
+var dropdownItem = document.querySelectorAll(".dropdown-item-dark");
 
 setThemeFromCookie();
 
