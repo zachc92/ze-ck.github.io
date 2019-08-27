@@ -6,7 +6,7 @@ var navbarTheme = document.querySelector(".navbar-dark");
 var dropdown = document.querySelectorAll(".tentacledrop-dark");
 var dropdownItem = document.querySelectorAll(".dropdown-item-dark");
 
-setThemeFromCookie();
+// setThemeFromCookie();
 
 theme.onclick = function (){
 	if (jumbo.classList.contains("jumbotron")){
@@ -59,15 +59,15 @@ theme.onclick = function (){
 	}
 }
 
-function isDarkThemeSelected(){
-	return document.cookie.match(/darkTheme/i) != null;
-}
+// function isDarkThemeSelected(){
+// 	return document.cookie.match(/darkTheme/i) != null;
+// }
 
-function setThemeFromCookie(){
-	body.className = isDarkThemeSelected() ? "dark-body" : "light-body";
-	navbarTheme.className = isDarkThemeSelected() ? "navbar-dark" : "navbar-light";
-	dropdown.className = isDarkThemeSelected() ? "tentacledrop-dark" : "tentacledrop";
-	dropdownItem.className = isDarkThemeSelected() ? "dropdown-item-dark" : "dropdown-item";
-	jumbo.className = isDarkThemeSelected() ? "dark-jumbo" : "jumbotron";
-	navbar.className = isDarkThemeSelected() ? "tentaclenav-dark" : "tentaclenav";
-}
+// function setThemeFromCookie(){
+// 	body.className = isDarkThemeSelected() ? "dark-body" : "light-body";
+// 	navbarTheme.className = isDarkThemeSelected() ? "navbar-dark navbar navbar-expand-lg" : "navbar-light navbar navbar-expand-lg";
+// 	dropdown.className = isDarkThemeSelected() ? "tentacledrop-dark dropdown-menu" : "tentacledrop dropdown-menu";
+// 	dropdownItem.className = isDarkThemeSelected() ? "dropdown-item-dark" : "dropdown-item";
+// 	jumbo.className = isDarkThemeSelected() ? "dark-jumbo" : "jumbotron";
+// 	navbar.className = isDarkThemeSelected() ? "tentaclenav-dark" : "tentaclenav";
+// }
