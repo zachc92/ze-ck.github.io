@@ -21,10 +21,14 @@ theme.onclick = function (){
 		navbar.classList.add("tentaclenav");
 		navbar.classList.remove("tentaclenav-dark");
 	}
-	if (!body.classList.contains("dark-body")){
+	if (body.classList.contains("light-body")){
 		body.classList.add("dark-body");
+		body.classList.remove("light-body");
+		document.cookie = "darkTheme";
 	} else {
 		body.classList.remove("dark-body");
+		body.classList.add("light-body");
+		document.cookie = "lightTheme"
 	}
 	if (navbarTheme.classList.contains("navbar-light")) {
 		navbarTheme.classList.add("navbar-dark");
@@ -51,4 +55,6 @@ theme.onclick = function (){
 			dropdownItem[i].classList.remove("dropdown-item-dark");
 		}
 	}
+
+	console.log(document.cookie)
 }
