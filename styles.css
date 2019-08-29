@@ -23,7 +23,7 @@ table {
 	margin-bottom: 15px; }
 
 .tentaclenav-dark { 
-	background-color: rgb(47,49,54) !important; 
+	background-color: #17223b !important; 
 	margin-bottom: 15px;
 	color: white;
 }
@@ -33,12 +33,12 @@ table {
 }
 
 .tentacledrop-dark {
-	background-color: rgb(47,49,54);
+	background-color: #17223b;
 }
 
 a.dropdown-item:hover {
-	background-color: rgb(233,236,239);
-	 color: black;
+	background-color: #F73859;
+	color: black;
 }
 
 a.dropdown-item {
@@ -48,13 +48,13 @@ a.dropdown-item {
 .dark-jumbo {
   	padding: 64px 32px;
   	margin-bottom: 2rem;
-  	background-color: rgb(47,49,54);
+  	background-color: #17223b;
   	border-radius: 0.3rem;
   	color: white;
 }
 
 .dark-body {
-	background-color: rgb(54,57,63);
+	background-color: #263859;
 	color: white;
 }
 
@@ -74,8 +74,18 @@ a.dropdown-item {
 a.dropdown-item-dark:hover {
 	color: white;
 	text-decoration: none;
+	background-color: #F73859;
 }
 
 iframe {
 border: 0;
+}
+
+li.active {
+	background-color: #F73859;
+}
+
+nav li {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
