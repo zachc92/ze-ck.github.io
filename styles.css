@@ -74,6 +74,7 @@ a.dropdown-item-dark:hover {
 	color: white;
 	text-decoration: none;
 	background-color: #F73859;
+	transition: background-color .2s ease-in;
 }
 
 li.active {
@@ -83,6 +84,11 @@ li.active {
 nav li {
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+nav li:hover {
+	background-color: #F73859;
+	transition: background-color .2s ease-in;
 }
 
 #meteor {
