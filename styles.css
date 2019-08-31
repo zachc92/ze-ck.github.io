@@ -1,29 +1,41 @@
+/* body themes */
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
 .light-body { 
 	background-color: lightgray; 
 }
 
-table { 
-	font-family: "Segoe UI"; 
+.dark-body {
+	background-color: #313131;
+	color: white;
 }
 
-.player { 
-	color: white; 
+
+/* header */
+#headerDiv {
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	height: 200px;
 }
 
-.player:hover { 
-	color: gray; text-decoration: none; 
+#header {
+	width: 50%;
+	max-width: 550px;
+	height: 200px;
 }
 
-.external:hover { 
-	text-decoration: none; 
-}
 
+/* navbar stuff */
 .tentaclenav { 
 	background-color: rgb(233,236,239) !important; 
 	margin-bottom: 15px; }
 
 .tentaclenav-dark { 
-	background-color: #17223b !important; 
+	background-color: #212121 !important; 
 	margin-bottom: 15px;
 	color: white;
 }
@@ -33,7 +45,7 @@ table {
 }
 
 .tentacledrop-dark {
-	background-color: #17223b;
+	background-color: #212121;
 }
 
 a.dropdown-item:hover {
@@ -43,19 +55,6 @@ a.dropdown-item:hover {
 
 a.dropdown-item {
 	color: rgb(116,118,119);
-}
-
-.dark-jumbo {
-  	padding: 64px 32px;
-  	margin-bottom: 2rem;
-  	background-color: #17223b;
-  	border-radius: 0.3rem;
-  	color: white;
-}
-
-.dark-body {
-	background-color: #263859;
-	color: white;
 }
 
 .dropdown-item-dark {
@@ -77,10 +76,6 @@ a.dropdown-item-dark:hover {
 	background-color: #F73859;
 }
 
-iframe {
-border: 0;
-}
-
 li.active {
 	background-color: #F73859;
 }
@@ -88,4 +83,88 @@ li.active {
 nav li {
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+#meteor {
+	height: 35px;
+	width: 35px;
+}
+
+
+/* navbar top border */
+.navbarTopborder {
+	height: 5px;
+	width: 100%;
+	background-color: #F73859;
+}
+
+
+/* roster table */
+.rosterTable td:nth-of-type(4){
+	text-align: right;
+	width: 34px;
+}
+
+.rosterTable {
+	background-color: #212121;
+}
+
+.playerAvatar {
+	height: 32px;
+	width: 32px;
+	border-radius: 32px;
+	margin-right: 5px;
+}
+
+.twitch {
+	height: 32px;
+	width: 32px;
+}
+
+.player { 
+	color: white; 
+}
+
+.player:hover { 
+	color: gray; text-decoration: none; 
+}
+
+
+/* loot table */
+.lootTable {
+	background-color: #212121
+}
+
+
+/* timelines iframe */
+iframe.timelines {
+	border: 0;
+	width: 100%;
+	height: 895px;
+}
+
+
+/* text edits */
+.external:hover { 
+	text-decoration: none; 
+}
+
+.display-4 {
+	font-size: 30px;
+}
+
+.rowHd {
+	text-align: center;
+}
+
+.darkHr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+.lightHr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }

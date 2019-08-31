@@ -5,122 +5,69 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap4.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="icon" href="icons/xiv.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
 </head>
 <body class="dark-body">
 
-<div class="dark-jumbo" style="margin-bottom: 5px; border-radius: 0;">
-	<h1 class="display-3">Tentacle Difficulties</h1>
-	<p class="lead">Eden Savage Information and Tables</p>
+<div id="headerDiv">
+	<img src="footer.png" id="header">
 </div>
 
+<div class="navbarTopborder"></div>
+
 <nav class="navbar navbar-expand-lg navbar-dark tentaclenav-dark py-0">
-  <a class="navbar-brand" style="padding: 0px;"><img id="meteor" src="icons\xiv.png" style="width: 35px; height: 35px;"></a>
+  <a class="navbar-brand"><img id="meteor" src="icons\xiv.png"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Raid Resources
-        </a>
-        <div class="dropdown-menu tentacledrop-dark" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item-dark" href="loot.html">Loot Tables</a>
-          <a class="dropdown-item-dark" href="timelines.html">Fight Timelines</a>
-          <a class="dropdown-item-dark" href="media.html">Media</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.fflogs.com/guild/id/45415" target="_blank">FFLogs</a>
-      </li>
-    </ul>
     <ul class="navbar-nav ml-auto">
-    	<li class="nav-item dropdown">
-        	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          	Twitch Streams
+    	<li class="nav-item active">
+        	<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+     	 </li>
+      	<li class="nav-item dropdown">
+       		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Raid Resources
         	</a>
-        	<div class="dropdown-menu tentacledrop-dark" aria-labelledby="navbarDropdownMenuLink">
-          	<a class="dropdown-item-dark" href="https://www.twitch.tv/adibers21" target="_blank">Spencer Ballard</a>
-          	<a class="dropdown-item-dark" href="https://www.twitch.tv/zeck___" target="_blank">Elia Aximand</a>
-          	<a class="dropdown-item-dark" href="https://www.twitch.tv/bikkit" target="_blank">Robit Beepbop</a>
-          	<a class="dropdown-item-dark" href="https://www.twitch.tv/epitv_" target="_blank">Epical Cataclysm</a>
-          	<a class="dropdown-item-dark" href="https://www.twitch.tv/zssagau" target="_blank">Zssa Gau</a>
-        	</div>
+       		 <div class="dropdown-menu tentacledrop-dark" aria-labelledby="navbarDropdownMenuLink">
+       		 	<a class="dropdown-item-dark" href="roster.html">Roster</a>
+         		<a class="dropdown-item-dark" href="loot.html">Loot Tables</a>
+         		<a class="dropdown-item-dark" href="timelines.html">Fight Timelines</a>
+          		<a class="dropdown-item-dark" href="media.html">Media</a>
+       		 </div>
+      	</li>
+      	<li class="nav-item">
+        	<a class="nav-link" href="https://www.fflogs.com/guild/id/45415" target="_blank">FFLogs</a>
       	</li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
-	<div class="row">
-		<div class="col-12 col-md-6">
-			<table class="table table-striped table-dark">
-				<thead>
-					<tr>
-						<th>Roster</th>
-						<th></th>
-						<th></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Player</td>
-						<td>Job</td>
-						<td>Alt Job</td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/6c65e32bc5c3afac5bda52d92e6ca838_0e336ff6ad415f47233f0aaf127feac0fc0_96x96.jpg?1561394300" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/faerie/spencer%20ballard" target="_blank" class="player">Spencer Ballard</a></td>
-						<td><img src="icons\war.png"></td>
-						<td><img src="icons\gnb.png"></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/3f96095075152a13984f9a6a29433c4a_0e336ff6ad415f47233f0aaf127feac0fc0_96x96.jpg?1561420091" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/faerie/elia%20aximand" target="_blank" class="player">Elia Aximand</a></td>
-						<td><img src="icons\drk.png"></td>
-						<td><img src="icons\pld.png"></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/468c6f28e73c02e9d9dcbf43f61e4142_0e336ff6ad415f47233f0aaf127feac0fc0_96x96.jpg?1541043091" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/faerie/robit%20beepbop" target="_blank" class="player">Robit Beepbop</a></td>
-						<td><img src="icons\whm.png"></td>
-						<td><img src="icons\brd.png"></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/97f6538e515fcdbcb2ad7a30f18d81fb_96ab1df8877c1f8ba6a89a39cccfd437fc0_96x96.jpg?1555751492" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/cactuar/lena%20reierson" target="_blank" class="player">Lena Reierson</a></td>
-						<td><img src="icons\sch.png"></td>
-						<td><img src="icons\whm.png"></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/7e338e9445e7af021f1a27e0beb864ff_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg?1564621272" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/gilgamesh/galatea%20grin" target="_blank" class="player">Galatea Grin</a></td>
-						<td><img src="icons\drg.png"></td>
-						<td></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/c830b4887d8ccee9da1dd9f9eb99fa33_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg?1564621329" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/gilgamesh/epical%20cataclysm" target="_blank" class="player">Epical Cataclysm</a></td>
-						<td><img src="icons\mnk.png"></td>
-						<td><img src="icons\mch.png"></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/468d269e9f0a98be4973779f6dcdb897_b937560c841465f7c4bc8eb47ea7948afc0_96x96.jpg?1564579035" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/gilgamesh/luna%20lovesbad" target="_blank" class="player">Luna Lovesbad</a></td>
-						<td><img src="icons\mch.png"></td>
-						<td><img src="icons\dnc.png"></td>
-					</tr>
-					<tr>
-						<td><img src="https://img2.finalfantasyxiv.com/f/7077bdf0d1a1322e7291793984d1b754_0e336ff6ad415f47233f0aaf127feac0fc0_96x96.jpg?1535350395" style="height: 30px; width: 30px; border-radius: 30px; margin-right: 5px;"><a href="https://www.fflogs.com/character/na/faerie/zssa%20gau" target="_blank" class="player">Zssa Gau</a></td>
-						<td><img src="icons\rdm.png"></td>
-						<td><img src="icons\smn.png"></td>
-					</tr>
-				</tbody>
-			</table>
+	<div class="row rowHd">
+		<div class="col-sm-12">
+			<h1 class="display-3">Tentacle Difficulties</h1>
 		</div>
-		<div class="col-12 col-md-6">
-			<h1 class="display-4" style="font-size: 30px">Joining the Static on FFLogs</h1>
-			<p class="lead">In order to join the static on FFLogs for group rankings on speed and execution, click <a href="https://www.fflogs.com/guild/autojoin/45415/KmVaFhtM" target="_blank" class="external">this link</a> and enter the code "45415/KmVaFhtM" (without the quotation marks). Then go to the Characters tab, and be sure to hit Join in the table with your character.</p>
-			<h1 class="display-4" style="font-size: 30px">External Links</h1>
+	</div>
+	<hr class="darkHr">
+	<br>
+	<div class="row">
+		<div class="col-md-6">
+			<p class="lead">This is the raid hub for our static. Various resources will be hosted or
+			linked here, and you are welcome to peruse the site at your leisure. If there are any additions
+			that you would like to see made to the site, please let me know on Discord @zeck#1894.</p>
+			<br>
+			<h1 class="display-4">External Links</h1>
 			<p class="lead" style="margin-bottom: 2px;"><a href="https://docs.google.com/document/d/1AslW7n5UDQ5ewoL23seVvIUTSq3KTIzMz-I-2U8UArA/edit" target="_blank" class="external">Special Spell Timers Tutorial</a></p>
 			<p class="lead"><a href="https://xivanalysis.com" target="_blank" class="external">XIV Analysis</a></p>
-			<h1 class="display-4" style="font-size: 30px;">Clear Dates</h1>
+		</div>
+		<div class="col-md-6">
+			<h1 class="display-4">Current Schedule</h1>
+			<p class="lead" style="margin-bottom: 2px;">Tuesday - 8pm to 11pm</p>
+			<p class="lead" style="margin-bottom: 2px;">Wednesday - 9pm to 11pm</p>
+			<p class="lead" style="margin-bottom: 2px;">Thursday - 8pm to 10pm</p>
+			<p>*all times are EST</p>
+			<br>
+			<h1 class="display-4">Clear Dates</h1>
 			<p class="lead" style="margin-bottom: 2px;">e1s - 7/30</p>
 			<p class="lead" style="margin-bottom: 2px;">e2s - 8/1</p>
 			<p class="lead" style="margin-bottom: 2px;">e3s - 8/5</p>
@@ -128,11 +75,6 @@
 		</div>
 	</div>
 </div>
-
-<div style="width: 100%; background: black; text-align: center;">
-	<img src="footer.png" width="50%;">
-</div>
-
 
 <script
   src="https://code.jquery.com/jquery-3.4.1.js"

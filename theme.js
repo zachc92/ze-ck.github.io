@@ -1,10 +1,10 @@
-var theme = document.querySelector("img");
-var jumbo = document.querySelector(".dark-jumbo");
+var theme = document.querySelector("#meteor");
 var navbar = document.querySelector(".tentaclenav-dark");
 var body = document.querySelector("body");
 var navbarTheme = document.querySelector(".navbar-dark");
 var dropdown = document.querySelectorAll(".tentacledrop-dark");
 var dropdownItem = document.querySelectorAll(".dropdown-item-dark");
+var hr = document.querySelector("hr");
 
 // setThemeFromCookie();
 
@@ -13,13 +13,6 @@ theme.onclick = function(){
 }
 
 function setTheme(){
-	if (jumbo.classList.contains("jumbotron")){
-		jumbo.classList.add("dark-jumbo");
-		jumbo.classList.remove("jumbotron");
-	} else {
-		jumbo.classList.add("jumbotron");
-		jumbo.classList.remove("dark-jumbo");
-	}
 	if (navbar.classList.contains("tentaclenav")){
 		navbar.classList.add("tentaclenav-dark");
 		navbar.classList.remove("tentaclenav");
@@ -58,6 +51,13 @@ function setTheme(){
 			dropdownItem[i].classList.add("dropdown-item");
 			dropdownItem[i].classList.remove("dropdown-item-dark");
 		}
+	}
+	if (hr.classList.contains("darkHr")){
+		hr.classList.add("lightHr");
+		hr.classList.remove("darkHr");
+	} else {
+		hr.classList.add("darkHr");
+		hr.classList.remove("lightHr");
 	}
 }
 
