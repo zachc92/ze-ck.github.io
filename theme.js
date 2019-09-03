@@ -1,8 +1,6 @@
-var theme = document.querySelector("#meteor");
-
-theme.onclick = function(){
+$('#meteor').click(function(){
 	setTheme();
-}
+});
 
 function setTheme(){
 	$('nav').toggleClass("tentaclenav");
